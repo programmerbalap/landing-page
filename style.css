@@ -1,0 +1,275 @@
+
+/* Tambahkan kode CSS kalian di file ini */
+
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Sansita+Swashed:wght@700&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+nav{
+  background-color: rgb(255, 255, 255);
+  box-shadow:0.1px 0.0px 10px #a8a8a8;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.nav-in{
+display: flex;
+justify-content: space-between;
+width: 100%;
+align-items: center;
+padding-top:5px;
+padding-bottom: 5px;
+padding-left: 30px;
+padding-right: 30px;
+}
+
+.menu-navbar{
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.list-menu{
+  list-style: none;
+}
+
+.link-aktiv{
+  margin-right: 25px;
+  text-decoration: none;
+  border-bottom: 3px solid rgb(53, 144, 255);
+  color: rgb(0, 140, 255);
+  font-weight:bold;
+  display: flex;
+  height: 50px;
+  text-align: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+.link{
+  margin-right: 25px;
+  text-decoration: none;
+  color: rgb(26, 26, 26);
+  font-weight:bold;
+  display: flex;
+  height: 50px;
+  text-align: center;
+  
+  align-items: center;
+  font-size: 14px;
+}
+
+.menu-profile{
+  display: flex;
+  align-items: center;
+}
+
+.main-in{
+  position: relative;
+}
+
+.banner{
+  width: 100%;
+  filter: brightness(40%);
+  object-fit: cover;
+  object-position: center;
+}
+
+.out-description{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#description-head{
+font-size: 40px;
+font-weight:bold;
+color: white;
+}
+
+#description{
+  font-size: 25px;
+  font-weight: lighter;
+  color: white;
+}
+
+.profile{
+  height: 35px;
+  border-radius: 35px;
+}
+.name-profile{
+  font-size: 10px;
+  font-weight: bold;
+  padding-inline: 5px;
+}
+
+.out-welcome{
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.title-welcome{
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+}
+.out-pejuang-tangguh{
+  display: flex;
+  width: 100%;
+  height: 500px;
+  padding: 20px;
+
+}
+.in-pejuang-tangguh{
+width: 50%;
+border-radius: 150px 0px 0px 0px;
+overflow: hidden;
+margin-inline: 40px;
+position: relative;
+}
+
+.percayalah{
+  background-color: #626262;
+  border: 8px solid #fff;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 250px;
+  padding: 20px;
+}
+
+.img-pejuang{
+  border-radius: 0px 0px 150px 0px;
+  overflow: hidden;
+  width: 50%;
+  margin-inline: 40px;
+}
+.donasi{
+  margin: auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.btn-donasi{
+  background-color: rgb(201, 201, 21);
+  padding-top: 10px;
+  width: 250px;
+  padding-bottom: 10px;
+  padding-inline: 15px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0.2px 4px 3px #626262;
+  font-size: 18px;
+  font-weight: 600;
+}
+.out-komunitas{
+  width: 100%;
+  padding-inline: 100px;
+   background-color: #e9e9e9;
+  display: flex;
+}
+
+.btn-join{
+  background-color: rgb(201, 201, 21);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-inline: 15px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0.2px 4px 3px #626262;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.titik{
+  border: 1px solid #9d9d9d;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  margin: 3px;
+}
+.out-contact{
+   width: 100%;
+   padding-top:10px;
+   padding-bottom: 5px;
+   padding: 50px;
+   background-color: #e9e9e9;
+   
+}
+
+.form-input{
+  width: 100%;
+  padding: 5px;
+  margin:10px;
+  font-size: 14px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn-submit{
+  width: 100%;
+  padding: 5px;
+  margin:10px;
+  font-size: 14px;
+  background-color: rgb(201, 201, 21);
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0.2px 4px 3px #626262;
+   font-weight: 600;
+}
+
+.patnert{
+  text-align: center;
+  margin: 30px;
+   font-weight: 600;
+  font-size: 35px;
+}
+.in-content{
+   display:flex;
+   flex-wrap: wrap;
+   column-gap: 100px;
+   row-gap: 70px;
+   justify-content: space-around ;
+   width: 90%;
+   margin: auto;
+   align-items: center;
+}
+.footer{
+   display:flex;
+   flex-wrap: wrap;
+   column-gap: 10px;
+   row-gap: 50px;
+   width: 90%;
+   margin: auto;
+   align-items: center;
+   padding: 50px;
+}
+.out-copyright{
+  width: 90%;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  border-top: 2px solid #fff;
+  justify-content: space-between;
+}
